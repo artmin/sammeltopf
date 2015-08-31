@@ -1,0 +1,5 @@
+Benötigte Module:
+
+pyexcel-ods - Einlesen von ods
+Doku: https://github.com/chfw/pyexcel
+

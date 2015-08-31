@@ -1,0 +1,74 @@
+body {
+  font-family: Verdana;
+  font-size: 10pt;
+}
+
+table {
+  width : 100%;
+}
+
+.padding-right {
+  padding-right: 0.5cm;
+}
+
+.grey {
+  color: grey;
+}
+
+.right {
+  text-align: right;
+}
+
+.small {
+  font-size: 8.5pt;
+}
+
+.vspace-s {
+  margin-top: 0.6cm;
+}
+
+.vspace-m {
+  margin-top: 1.2cm;
+}
+
+.vspace-xl {
+  margin-top: 2.4cm;
+ }
+
+.title {
+  font-size: 14pt;
+  font-weight: bold;
+}
+
+hr {
+  border-color: #51b95a;
+}
+
+#infobox {
+  width: 9cm;
+  }
+
+/* Seitenlayout */
+@page {
+    
+  size: a4 portrait;
+    
+  @frame content_frame {
+      left: 50pt;
+      width: 512pt;
+      top: 50pt;
+      height: 662pt;
+      border: 1px solid white; /* Dirty fix */
+  }
+
+  @frame footer_frame { 
+      -pdf-frame-content: footer_content;
+      left: 50pt;
+      width: 512pt;
+      top: 727pt;
+      height: 85pt;
+      font-size: 8pt;
+      border: 1px solid white; /* Dirty fix */
+  }
+
+}
